@@ -1,0 +1,30 @@
+{
+  "name": "q5",
+  "endpoint": "cal/cs61a-exam/su20/final_5pm_1x_q5",
+  "decryption_keypage": "https://ok-exam-key-server.apps.cs61a.org/",
+  "src": [
+    "q5.py"
+  ],
+  "tests": {
+    "tests/q5.py": "ok_test",
+    "tests/a.py": "ok_test",
+    "tests/d.py": "ok_test",
+    "tests/b.py": "ok_test",
+    "tests/c.py": "ok_test"
+  },
+  "default_tests": [
+    "q5",
+    "a",
+    "d",
+    "b",
+    "c"
+  ],
+  "protocols": [
+    "restore",
+    "file_contents",
+    "analytics",
+    "unlock",
+    "grading",
+    "backup"
+  ]
+}
